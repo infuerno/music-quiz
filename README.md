@@ -5,14 +5,19 @@ https://www.youtube.com/watch?v=vIyU4nInlt0
 1. Create nextjs project: `npx create-next-app@latest --ts`
 2. Run: `npm run dev`
 3. Create github repo and push initial code
-4. Remove globals.css
-5. Install shadcn
+4. Remove globals.css, install shadcn (see site for installation instructions)
+5. Create new planet scale MySQL database
+6. Setup prisma
+   - `npm i -D prisma` - push schema changes to the database
+   - `npm i @prisma/client` - interacting with the database in code
+   - `npx prisma init --datasource-provider mysql`
+   - create db.ts to initialise singleton prisma client for development (due to hot reloading)
+   - add example schema to prisma/schema.prisma
+   - `npx prisma db push`
+7. Setup auth
+   - `npm i next-auth`
 
 TLD launch schedule: https://tld-list.com/launch-schedule
-
-
-
-
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
