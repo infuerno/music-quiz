@@ -1,3 +1,19 @@
+# Build & Deploy: Full Stack AI Quiz Platform with NextJS 13, TailwindCSS, OpenAI, Next Auth
+
+https://www.youtube.com/watch?v=vIyU4nInlt0
+
+1. Create nextjs project: `npx create-next-app@latest --ts`
+2. Run: `npm run dev`
+3. Create github repo and push initial code
+4. Remove globals.css
+5. Install shadcn
+
+TLD launch schedule: https://tld-list.com/launch-schedule
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
